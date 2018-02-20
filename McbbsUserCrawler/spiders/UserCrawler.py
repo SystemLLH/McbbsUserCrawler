@@ -1,6 +1,6 @@
 from scrapy.spiders import Spider, Request
 from McbbsUserCrawler.items import McbbsusercrawlerItem
-from data import insert_user, user_status_file
+from data import insert_user
 
 
 class UserCrawler(Spider):

@@ -1,5 +1,5 @@
 from scrapy import cmdline
-from data import init_database, open_database, user_status_file
+from data import init_database, open_database
 
 
 if __name__ == '__main__':
@@ -7,4 +7,3 @@ if __name__ == '__main__':
     init_database()
     name = 'UserCrawler'
     cmdline.execute(('scrapy crawl ' + name).split())
-    user_status_file.close()
