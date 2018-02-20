@@ -1,0 +1,13 @@
+BOT_NAME = 'McbbsUserCrawler'
+SPIDER_MODULES = ['McbbsUserCrawler.spiders']
+NEWSPIDER_MODULE = 'McbbsUserCrawler.spiders'
+ROBOTSTXT_OBEY = True
+
+CONCURRENT_REQUESTS = 256
+
+COOKIES_ENABLED = False
+
+LOG_LEVEL = 'INFO'
+
+RETRY_ENABLED = True
+DOWNLOAD_DELY = 0.0005
